@@ -6024,6 +6024,7 @@ justify-content: left;
   box-shadow      : 0 0 1rem rgba(0, 0, 0, 0.2);
   margin-bottom   : 2rem;
   transition      : all 0.3s ease-in-out;
+  
 }
 
 .crypto__container--right-title:hover,
@@ -6442,7 +6443,7 @@ color: #ffff !important;
   .members__container--right-img,
   .ubication__container--left-img {
       width     : 100%;
-      margin-top: 3.5rem;
+      margin-top: 7rem;
   }
 
   .crypto__container--right-text-container {
@@ -6478,6 +6479,7 @@ color: #ffff !important;
   .crypto__container--right-title h2,
   .ubication__container--right-subtitle h3 {
       font-size: 1.7rem;
+      
   }
 
   .crypto__container--right-text-one {
