@@ -6273,6 +6273,16 @@ justify-content: left;
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.281));
 }
 
+.privacy_policy{
+  
+  color:var(--color-black); 
+}
+
+.privacy_policy:hover{
+  
+  color:#D4A73B !important;
+}
+
 
 /*Footer*/
 
