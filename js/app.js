@@ -22,9 +22,28 @@ const createCard = (sucursal) => {
   return locationCard;
 };
 
+const createCardMobile = (sucursal) => {
+  const locationCard = document.createElement("div");
+  locationCard.classList.add("sucursal__card--mobile-active");
+  locationCard.innerHTML = `
+        <img
+        class="sucursal__card--image"
+        src="${sucursal.imagePath}"
+      alt="${sucursal.name}"
+      />
+      <h3 class="sucursal__card--title">${sucursal.name}</h3>
+      <p class="sucursal__card--text">${sucursal.address}</p>
+      
+      `;
+
+  return locationCard;
+};
+
+
 sucursales.forEach((sucursal) => {
-  sucursalContainerMobile.appendChild(createCard(sucursal));
+  sucursalContainerMobile.appendChild(createCardMobile(sucursal));
   sucursalContainerMobile.classList.add("sucursal__container--card--mobile");
+  
 });
 
 const showSucursals = (index) => {

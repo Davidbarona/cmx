@@ -6044,7 +6044,8 @@ a {
   z-index: 3;
 }
 
-.sucursal__card--active {
+.sucursal__card--active,
+.sucursal__card--mobile-active {
   animation       : show .4s forwards;
   z-index         : 4;
   width           : 20rem;
@@ -6128,7 +6129,8 @@ a {
     transform: unset;
   }
 
-  .sucursal__card--active {
+  .sucursal__card--active,
+  .sucursal__card--mobile-active {
     animation: none;
   }
 
