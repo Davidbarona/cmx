@@ -1,4 +1,4 @@
-import data from "./data.json" assert { type: "json" };
+import data from "./data.json"
 
 const sucursalContainerCard = document.querySelector(".sucursal__container--card");
 const sucursalContainerMobile = document.querySelector(".sucursal__container--card--mobile");
