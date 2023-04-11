@@ -5858,7 +5858,7 @@ a {
   flex-direction: column;
   align-items   : center;
   width         : 100%;
-  height        : 100vh;
+  /* height        : 100vh; */
 }
 
 .sucursal__container {
@@ -6113,10 +6113,6 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  .sucursal {
-    height: unset;
-  }
-
   .sucursal__container__map {
     display: none;
   }

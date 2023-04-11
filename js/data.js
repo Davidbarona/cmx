@@ -1,4 +1,4 @@
-{
+let data = {
   "sucursals": [
     {
       "id": 1,
@@ -62,3 +62,5 @@
     }
   ]
 }
+
+export default data;

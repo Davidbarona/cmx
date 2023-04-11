@@ -1,10 +1,9 @@
-// import data from "./data.json"
-const data = require('./data.json');
+import data from "./data.js";
 
 const sucursalContainerCard = document.querySelector(".sucursal__container--card");
 const sucursalContainerMobile = document.querySelector(".sucursal__container--card--mobile");
 const mapLocation = document.querySelectorAll(".location__vector");
-const sucursales = data.sucursals;
+const sucursales = data.sucursals
 
 const createCard = (sucursal) => {
   const locationCard = document.createElement("div");
