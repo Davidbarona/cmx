@@ -1,4 +1,5 @@
-import data from "./data.json"
+// import data from "./data.json"
+const data = require('./data.json');
 
 const sucursalContainerCard = document.querySelector(".sucursal__container--card");
 const sucursalContainerMobile = document.querySelector(".sucursal__container--card--mobile");
